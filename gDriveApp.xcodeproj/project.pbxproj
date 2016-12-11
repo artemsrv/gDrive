@@ -496,6 +496,7 @@
 				0C6CBDF11DFD6678007A915E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C6CBDF21DFD6678007A915E /* Build configuration list for PBXNativeTarget "gDriveAppTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				0C6CBDF41DFD6678007A915E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C6CBDF51DFD6678007A915E /* Build configuration list for PBXNativeTarget "gDriveAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				0C6CBDF71DFD6678007A915E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
