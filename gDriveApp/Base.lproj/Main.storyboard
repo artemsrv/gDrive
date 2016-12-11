@@ -655,22 +655,22 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="gDriveApp" customModuleProvider="target">
-                    <connections>
-                        <outlet property="quitClick" destination="bGG-Q5-XWM" id="R11-Xh-jZZ"/>
-                        <outlet property="statusMenu" destination="j3m-Ts-HXF" id="2ar-Ct-Urh"/>
-                    </connections>
-                </customObject>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="gDriveApp" customModuleProvider="target"/>
                 <menu id="j3m-Ts-HXF">
                     <items>
                         <menuItem title="Quit" id="bGG-Q5-XWM">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
-                                <action selector="quitClick:" target="Voe-Tx-rLC" id="Dde-Tp-9d6"/>
+                                <action selector="quitClick:" target="LuC-Ob-wzK" id="fQu-N1-1LH"/>
                             </connections>
                         </menuItem>
                     </items>
                 </menu>
+                <customObject id="LuC-Ob-wzK" customClass="StatusBarMenuController" customModule="gDriveApp" customModuleProvider="target">
+                    <connections>
+                        <outlet property="statusMenu" destination="j3m-Ts-HXF" id="vVd-nf-VF8"/>
+                    </connections>
+                </customObject>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
