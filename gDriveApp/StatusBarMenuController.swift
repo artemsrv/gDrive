@@ -17,8 +17,8 @@ class StatusBarMenuController: NSObject {
     override func awakeFromNib() {
         // Insert code here to initialize your application
         
-        let ico = NSImage(named:"statusBarIcon")
-        //ico?.isTemplate = true //better to dark
+        let ico = NSImage(named:"statusBarIcon2")
+        ico?.isTemplate = true //better to dark
         
         statusItem.image=ico
         statusItem.title = "gDrive"
