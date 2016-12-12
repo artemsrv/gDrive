@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C1219C11DFDD56900387561 /* StatusBarMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1219C01DFDD56900387561 /* StatusBarMenuController.swift */; };
+		0C677D231DFEE8BC0013824E /* ConnectStatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C677D221DFEE8BC0013824E /* ConnectStatusController.swift */; };
 		0C6CBDCE1DFD6677007A915E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CBDCD1DFD6677007A915E /* AppDelegate.swift */; };
 		0C6CBDD01DFD6677007A915E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CBDCF1DFD6677007A915E /* ViewController.swift */; };
 		0C6CBDD21DFD6677007A915E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6CBDD11DFD6677007A915E /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		0C1219C01DFDD56900387561 /* StatusBarMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarMenuController.swift; sourceTree = "<group>"; };
+		0C677D221DFEE8BC0013824E /* ConnectStatusController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectStatusController.swift; sourceTree = "<group>"; };
 		0C6CBDCA1DFD6677007A915E /* gDriveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gDriveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6CBDCD1DFD6677007A915E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C6CBDCF1DFD6677007A915E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				0C6CBDCF1DFD6677007A915E /* ViewController.swift */,
 				0C6CBDD11DFD6677007A915E /* Assets.xcassets */,
 				0C6CBDD31DFD6677007A915E /* Main.storyboard */,
+				0C677D221DFEE8BC0013824E /* ConnectStatusController.swift */,
 				0C6CBDD61DFD6677007A915E /* Info.plist */,
 			);
 			path = gDriveApp;
@@ -260,6 +263,7 @@
 			files = (
 				0C6CBDD01DFD6677007A915E /* ViewController.swift in Sources */,
 				0C6CBDCE1DFD6677007A915E /* AppDelegate.swift in Sources */,
+				0C677D231DFEE8BC0013824E /* ConnectStatusController.swift in Sources */,
 				0C1219C11DFDD56900387561 /* StatusBarMenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
