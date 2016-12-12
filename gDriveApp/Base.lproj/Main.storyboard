@@ -679,8 +679,8 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" propertyAccessControl="localizable" sceneMemberID="viewController">
-                    <window key="window" title="gDrive Uploader Application" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                    <window key="window" title="gDrive Uploader Application" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" animationBehavior="default" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -769,7 +769,7 @@
         <scene sceneID="VwR-dx-gZW">
             <objects>
                 <viewController id="lHJ-zs-abm" customClass="ConnectStatusController" customModule="gDriveApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="Y6n-uj-lbk">
+                    <view key="view" id="Y6n-uj-lbk" propertyAccessControl="localizable">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
